@@ -14,7 +14,7 @@ first = driver.find_element(By.XPATH, "//div[contains(@class, 'first_block')]/di
 first.send_keys("Anna")
 
 last = driver.find_element(By.XPATH, "//div[@class='first_block']//div[@class='form-group second_class']/input")
-last.send_keys("Karelina")
+last.send_keys("Kaina")
 
 email = driver.find_element(By.XPATH, "//div[contains(@class, 'first_block')]/div/input[contains(@class,'third')]")
 email.send_keys("annette@list.ru")
